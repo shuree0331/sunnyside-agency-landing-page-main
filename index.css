@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap');
+
+* {
+    font-family: 'Fraunces', serif;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1440px) {
+    /* Header */
+    body {
+        background-color: black;
+        margin: 0px;
+    }
+    
+    .container {
+        width: 1400px;
+        height: 100vh;
+        margin: 0 auto;
+    }
+
+    header {
+        width: 100%;
+        background-image: url("./images/desktop/image-header.jpg");
+        background-repeat: round;
+        height: 800px;
+    }
+
+    nav {
+        display: inline-flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        height: 150px;
+    }
+    header nav img {
+        width: 150px;
+        margin-left: 50px;
+    }
+
+    nav a {
+        text-decoration: none;
+        font-size: 16px;
+        margin-top: 3%;
+        margin-right: 50px;
+        padding: 10px 20px;
+        color:hsl(0, 0%, 100%);
+        border-radius: 30px;
+        /* border: 1px solid white; */
+    }
+
+    nav .contact {
+        background-color: hsl(0, 0%, 100%);
+        color: black;
+        text-transform: uppercase;
+        font-family: 'Fraunces', serif;
+        font-weight: normal;
+        font-size: 14px;
+    }
+
+    .heading {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 {
+        text-align: center;
+        margin: 90px auto 80px auto;
+        font-family: 'Fraunces', serif;
+        color: hsl(0, 0%, 100%);
+        font-size: 50px;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        font-weight: bolder;
+    }
+
+    header img {
+        width: 25px;
+    }
+
+    /* main */
+    main {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+    }
+
+    .grid {
+        width: 50%;
+        max-height: 700px;
+        background-color: hsl(0, 0%, 100%);
+    }
+
+    
+}
