@@ -25,6 +25,11 @@
         height: 800px;
     }
 
+    button {
+        background: none;
+        border: none;
+    }
+
     #menu {
         visibility: hidden;
     }
@@ -336,7 +341,7 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media only screen and (max-width: 375px) {
     /* nav svg {
         width: 200px;
     } */
